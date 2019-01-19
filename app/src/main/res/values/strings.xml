@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MotivationBoardRecycler</string>
+
+
+    <string-array name="captions_array">
+        <item>Where I came from</item>
+        <item>The Whole Cast and Crew</item>
+        <item>He Put a Ring on it!</item>
+        <item>My Sponser (and so much more)</item>
+        <item>Our First Born</item>
+        <item>Her Impact Was Huge</item>
+        <item>Teeny Tiny</item>
+        <item>But our family grows</item>
+        <item>My Siblings!</item>
+        <item>My In-laws</item>
+        <item>Let me tell you about my bestfriend.</item>
+        <item></item>
+
+    </string-array>
+
+
+
+
+
+</resources>
