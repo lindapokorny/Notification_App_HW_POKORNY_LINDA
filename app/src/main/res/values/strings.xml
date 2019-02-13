@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MotivationBoardRecycler</string>
-
+    <string name="send_notification_button">Send Notification</string>
+    <string name="activity_second_image_description">Image</string>
 
     <string-array name="captions_array">
         <item>Where I came from</item>

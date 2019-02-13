@@ -6,4 +6,42 @@
     android:layout_height="match_parent"
     tools:context="com.example.lindapokorny.Notification_App_HW_POKORNY_LINDA.SecondActivity">
 
+    <TextView
+        android:id="@+id/activity_second_caption_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/activity_second_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="@tools:sample/lorem" />
+
+    <ImageView
+        android:id="@+id/activity_second_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/activity_second_image_description"
+        app:layout_constraintBottom_toTopOf="@+id/button_send_notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_second_caption_textview"
+        tools:src="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button_send_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/send_notification_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_second_imageview" />
+
 </android.support.constraint.ConstraintLayout>
